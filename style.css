@@ -1,72 +1,73 @@
 div.post {
-    background: white;
-    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    width: 400px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  background: white;
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 div.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 div.header .user_info {
-    display: flex;
-    align-items: center;
-    margin-left: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
 }
 div.header .user_info .profile_pic img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    margin-right: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 8px;
 }
 div.header .user_info .username h5 {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }
 div.header .user_info .username span {
-    font-size: 14px;
+  font-size: 14px;
 }
 div.header .kebab_menu {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 div.header .kebab_menu img {
-    max-height: 24px;
+  max-height: 24px;
 }
 div.post_img img {
-    width: 100%;
+  width: 100%;
+  margin-bottom: 2%;
 }
 div.icons {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 8px;
-    margin-bottom: 8px;;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  margin-bottom: 8px;
 }
 
 div.left_icons {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 div.left_icons img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 div.right_icon {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 div.icons img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 div.text p {
-    padding: 0px 16px;
-    font-size: 14px;
-    text-align: justify;
+  padding: 0px 10px;
+  font-size: 14px;
+  text-align: justify;
 }
 
 div.text {
-    padding-bottom: 8px;
+  padding-bottom: 2px;
 }
